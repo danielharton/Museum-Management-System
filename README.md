@@ -1,0 +1,7 @@
+The Museum Management System is designed to efficiently manage the financial and operational aspects of multiple museums. This system focuses on tracking and analyzing economic data related to museum operations, including revenues from ticket sales, donations, and exhibit rentals, as well as expenses such as staff salaries, utility costs, and exhibit maintenance. By implementing this system, the museum can optimize its financial performance by identifying profitable exhibits, managing costs effectively, and ensuring that donation and revenue streams are utilized efficiently. The database design supports the analysis of key metrics like cost-to-revenue ratios, donation trends, and visitor statistics, helping museum management make data-driven decisions. 
+
+The project leverages a relational database structure to store and manage various aspects of museum operations. Some primary components of the system are: “Ticket Sales Management” ( tracks daily ticket sales, visitor data, and revenue generated ) and “Exhibit Financial Tracking” ( records costs associated with exhibit maintenance and calculates their profitability) . 
+
+The project includes the design and implementation of a robust database using Oracle SQL, featuring tables, relationships, and constraints. It also incorporates SQL queries to manage and analyze the data, with a focus on financial metrics, ensuring that the system aligns with the economic theme.
+
+Database schema
