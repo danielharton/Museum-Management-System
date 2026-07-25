@@ -18,7 +18,7 @@ This section demonstrates a strong foundation in relational database design, Dat
 
 **Schema Diagram (Core SQL):**
 
-![Database Schema](./database schema.png)
+![Database Schema](./database%20schema.png)
 
 ### 2. Advanced DBMS Implementation (`DBMS part.sql`)
 This section elevates the project by incorporating advanced Oracle PL/SQL programming to automate tasks, enforce complex business rules, and improve security/auditing.
@@ -29,7 +29,7 @@ This section elevates the project by incorporating advanced Oracle PL/SQL progra
 
 **Schema Diagram (Advanced DBMS with Auditing):**
 
-![DBMS Schema](./dbms schema.png)
+![DBMS Schema](./dbms%20schema.png)
 
 ---
 
