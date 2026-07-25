@@ -1,7 +1,45 @@
-The Museum Management System is designed to efficiently manage the financial and operational aspects of multiple museums. This system focuses on tracking and analyzing economic data related to museum operations, including revenues from ticket sales, donations, and exhibit rentals, as well as expenses such as staff salaries, utility costs, and exhibit maintenance. By implementing this system, the museum can optimize its financial performance by identifying profitable exhibits, managing costs effectively, and ensuring that donation and revenue streams are utilized efficiently. The database design supports the analysis of key metrics like cost-to-revenue ratios, donation trends, and visitor statistics, helping museum management make data-driven decisions. 
+# Museum Management System 🏛️📊
 
-The project leverages a relational database structure to store and manage various aspects of museum operations. Some primary components of the system are: “Ticket Sales Management” ( tracks daily ticket sales, visitor data, and revenue generated ) and “Exhibit Financial Tracking” ( records costs associated with exhibit maintenance and calculates their profitability) . 
+Welcome to the **Museum Management System** repository! This project showcases a robust, end-to-end relational database solution designed to efficiently manage the operational and financial aspects of multiple museums. 
 
-The project includes the design and implementation of a robust database using Oracle SQL, featuring tables, relationships, and constraints. It also incorporates SQL queries to manage and analyze the data, with a focus on financial metrics, ensuring that the system aligns with the economic theme.
+Designed with real-world business intelligence in mind, this project is divided into two distinct parts that demonstrate both **core SQL fundamentals** and **advanced PL/SQL (DBMS) capabilities**. It is built using Oracle SQL and focuses on tracking economic data like ticket revenues, donations, exhibit maintenance costs, and staff payroll.
 
-Database schema
+---
+
+## 📂 Project Structure
+
+This repository highlights progressive database development skills across two main implementations:
+
+### 1. Core SQL Implementation (`Database part.sql`)
+This section demonstrates a strong foundation in relational database design, Data Definition Language (DDL), Data Manipulation Language (DML), and complex querying. 
+* **Relational Design:** Normalized schema design with primary/foreign key constraints ensuring data integrity across tables (`Museum`, `Exhibits`, `Staff`, `Tickets`, `Donations`, `Financial_Reports`, etc.).
+* **Data Retrieval & BI:** Complex SQL queries utilizing `JOIN`s, aggregations (`GROUP BY`, `HAVING`), subqueries, and set operations to extract actionable business insights (e.g., cost-to-revenue ratios, high-performing exhibits).
+* **Computed Columns:** Utilization of virtual columns for real-time calculation of metrics like `ProfitOrLoss`.
+
+**Schema Diagram (Core SQL):**
+
+![Database Schema](./database schema.png)
+
+### 2. Advanced DBMS Implementation (`DBMS part.sql`)
+This section elevates the project by incorporating advanced Oracle PL/SQL programming to automate tasks, enforce complex business rules, and improve security/auditing.
+* **Dynamic SQL:** Extensive use of `EXECUTE IMMEDIATE` for dynamic schema generation and data population.
+* **Procedural Logic:** Implementation of cursors, loops, and conditional logic to process data iteratively and efficiently.
+* **Database Triggers & Auditing:** Implementation of a robust logging mechanism. As seen in the schema below, a new `MUSEUM_LOG` table is integrated to automatically track and audit database actions using triggers.
+* **Error Handling:** Robust exception handling for reliable database operations.
+
+**Schema Diagram (Advanced DBMS with Auditing):**
+
+![DBMS Schema](./dbms schema.png)
+
+---
+
+## 🎯 Key Skills Demonstrated
+* **Database Architecture:** Entity-Relationship modeling, normalization, and constraint management.
+* **Oracle SQL & PL/SQL:** Writing complex, performant queries and developing procedural database code.
+* **Business Intelligence:** Designing schemas that support financial reporting, trend analysis, and data-driven decision-making.
+* **Automation & Auditing:** Using triggers and dynamic SQL to create self-maintaining and secure database environments.
+
+## 🚀 Getting Started
+To review the code or run the scripts in your own Oracle environment:
+1. Review `Database part.sql` for the core schema and analytical queries.
+2. Review `DBMS part.sql` to explore the advanced PL/SQL scripts, dynamic table generation, and auditing triggers.
