@@ -4,6 +4,8 @@ Welcome to the **Museum Management System** repository! This project showcases a
 
 Designed with real-world business intelligence in mind, this project is divided into two distinct parts that demonstrate both **core SQL fundamentals** and **advanced PL/SQL (DBMS) capabilities**. It is built using Oracle SQL and focuses on tracking economic data like ticket revenues, donations, exhibit maintenance costs, and staff payroll.
 
+📖 **For full documentation, schema details, and setup guides, please check out the [Project Wiki](https://github.com/danielharton/Museum-Management-System/wiki).**
+
 ---
 
 ## 📂 Project Structure
